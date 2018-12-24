@@ -3,7 +3,7 @@
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
 FileVersion[20091103]
 
-PCB["" 5700.00mil 2950.00mil]
+PCB["" 4000.00mil 2950.00mil]
 
 Grid[500.000000 0.0000 0.0000 0]
 PolyArea[200000000.000000]
@@ -2747,7 +2747,7 @@ Layer(1 "component")
 	Line[73.6559mm 57.4081mm 2885.00mil 2275.00mil 10.00mil 20.00mil "clearline"]
 	Line[97.3529mm 62.5919mm 98.2789mm 62.5919mm 10.00mil 20.00mil "clearline"]
 	Line[98.2789mm 62.5919mm 3875.00mil 2470.00mil 10.00mil 20.00mil "clearline"]
-	Line[3875.00mil 2470.00mil 3875.00mil 2765.00mil 10.00mil 20.00mil "clearline"]
+	Line[3875.00mil 2470.00mil 3875.00mil 2710.00mil 10.00mil 20.00mil "clearline"]
 	Line[97.3529mm 64.1919mm 96.3229mm 64.1919mm 10.00mil 20.00mil "clearline"]
 	Line[97.3529mm 61.7918mm 98.2281mm 61.7918mm 10.00mil 20.00mil "clearline"]
 	Line[98.2281mm 61.7918mm 3875.00mil 2425.00mil 10.00mil 20.00mil "clearline"]
@@ -2779,8 +2779,8 @@ Layer(1 "component")
 	Line[3715.00mil 1775.00mil 3715.00mil 1545.00mil 10.00mil 20.00mil "clearline"]
 	Line[3780.00mil 1870.00mil 3685.00mil 1775.00mil 10.00mil 20.00mil "clearline"]
 	Line[3685.00mil 1775.00mil 3685.00mil 1495.00mil 10.00mil 20.00mil "clearline"]
-	Line[2705.00mil 2810.00mil 3830.00mil 2810.00mil 10.00mil 20.00mil "clearline"]
-	Line[3875.00mil 2765.00mil 3830.00mil 2810.00mil 10.00mil 20.00mil "clearline"]
+	Line[2705.00mil 2810.00mil 3775.00mil 2810.00mil 10.00mil 20.00mil "clearline"]
+	Line[3875.00mil 2710.00mil 3775.00mil 2810.00mil 10.00mil 20.00mil "clearline"]
 	Line[79.1870mm 2730.00mil 79.1870mm 2810.00mil 10.00mil 20.00mil "clearline"]
 	Line[3380.00mil 2490.00mil 3335.00mil 2535.00mil 10.00mil 20.00mil "clearline"]
 	Line[87.8131mm 64.9920mm 3400.00mil 64.9920mm 10.00mil 20.00mil "clearline"]
@@ -3168,8 +3168,8 @@ Layer(3 "GND")
 (
 	Polygon("clearpoly")
 	(
-		[450.00mil 120.00mil] [3880.00mil 120.00mil] [3880.00mil 2830.00mil] [450.00mil 2830.00mil] [450.00mil 2560.00mil] 
-		[120.00mil 2560.00mil] [120.00mil 390.00mil] [450.00mil 390.00mil] 
+		[450.00mil 120.00mil] [3775.00mil 120.00mil] [3880.00mil 225.00mil] [3880.00mil 2725.00mil] [3775.00mil 2830.00mil] 
+		[450.00mil 2830.00mil] [450.00mil 2560.00mil] [120.00mil 2560.00mil] [120.00mil 390.00mil] [450.00mil 390.00mil] 
 	)
 )
 Layer(4 "VDD")
@@ -3182,12 +3182,16 @@ Layer(4 "VDD")
 	Line[720.00mil 2595.00mil 390.00mil 2265.00mil 10.00mil 20.00mil "clearline"]
 	Polygon("clearpoly")
 	(
-		[3880.00mil 1530.00mil] [2935.00mil 1530.00mil] [2935.00mil 120.00mil] [3880.00mil 120.00mil] 
+		[3880.00mil 1530.00mil] [2935.00mil 1530.00mil] [2935.00mil 120.00mil] [3775.00mil 120.00mil] [3880.00mil 225.00mil] 
 	)
 	Polygon("clearpoly")
 	(
-		[2610.00mil 2830.00mil] [3880.00mil 2830.00mil] [3880.00mil 1925.00mil] [3605.00mil 1925.00mil] [3485.00mil 2045.00mil] 
-		[3165.00mil 2045.00mil] [3055.00mil 2155.00mil] [2610.00mil 2155.00mil] 
+		[2610.00mil 2830.00mil] [2610.00mil 2155.00mil] [3055.00mil 2155.00mil] [3165.00mil 2045.00mil] [3485.00mil 2045.00mil] 
+		[3605.00mil 1925.00mil] [3880.00mil 1925.00mil] [3880.00mil 2725.00mil] [3775.00mil 2830.00mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[3880.00mil 1530.00mil] [2935.00mil 1530.00mil] [2935.00mil 120.00mil] [3775.00mil 120.00mil] [3880.00mil 225.00mil] 
 	)
 )
 Layer(5 "outline")
@@ -3197,18 +3201,13 @@ Layer(5 "outline")
 	Line[100.00mil 370.00mil 100.00mil 2580.00mil 10.00mil 20.00mil "clearline"]
 	Line[100.00mil 370.00mil 170.00mil 370.00mil 10.00mil 20.00mil "clearline"]
 	Line[370.00mil 100.00mil 370.00mil 170.00mil 10.00mil 20.00mil "clearline"]
-	Line[370.00mil 100.00mil 5330.00mil 100.00mil 10.00mil 20.00mil "clearline"]
-	Line[5330.00mil 100.00mil 5330.00mil 170.00mil 10.00mil 20.00mil "clearline"]
-	Line[5530.00mil 370.00mil 5600.00mil 370.00mil 10.00mil 20.00mil "clearline"]
-	Line[5600.00mil 370.00mil 5600.00mil 2580.00mil 10.00mil 20.00mil "clearline"]
-	Line[5530.00mil 2580.00mil 5600.00mil 2580.00mil 10.00mil 20.00mil "clearline"]
-	Line[5330.00mil 2780.00mil 5330.00mil 2850.00mil 10.00mil 20.00mil "clearline"]
-	Line[370.00mil 2850.00mil 5330.00mil 2850.00mil 10.00mil 20.00mil "clearline"]
-	Line[3900.00mil 2850.00mil 3900.00mil 100.00mil 10.00mil 20.00mil "clearline"]
+	Line[370.00mil 100.00mil 3775.00mil 100.00mil 10.00mil 20.00mil "clearline"]
+	Line[370.00mil 2850.00mil 3775.00mil 2850.00mil 10.00mil 20.00mil "clearline"]
+	Line[3900.00mil 2725.00mil 3900.00mil 225.00mil 10.00mil 20.00mil "clearline"]
 	Arc[170.00mil 2780.00mil 200.00mil 200.00mil 10.00mil 20.00mil 270 -90 "clearline"]
 	Arc[170.00mil 170.00mil 200.00mil 200.00mil 10.00mil 20.00mil 180 -90 "clearline"]
-	Arc[5530.00mil 170.00mil 200.00mil 200.00mil 10.00mil 20.00mil 90 -90 "clearline"]
-	Arc[5530.00mil 2780.00mil 200.00mil 200.00mil 10.00mil 20.00mil 0 -90 "clearline"]
+	Arc[3775.00mil 225.00mil 125.00mil 125.00mil 10.00mil 20.00mil -90 -90 "clearline"]
+	Arc[3775.00mil 2725.00mil 125.00mil 125.00mil 10.00mil 20.00mil 90 90 "clearline"]
 )
 Layer(6 "silk")
 (
@@ -3238,14 +3237,6 @@ Layer(7 "silk")
 	Line[3755.00mil 480.00mil 3755.00mil 500.00mil 6.00mil 20.00mil "clearline"]
 	Arc[450.00mil 325.00mil 155.00mil 155.00mil 10.00mil 20.00mil 10 280 "clearline"]
 	Arc[450.00mil 2625.00mil 155.00mil 155.00mil 10.00mil 20.00mil 70 280 "clearline"]
-	Arc[170.00mil 175.00mil 105.00mil 105.00mil 10.00mil 20.00mil -90 -90 "clearline"]
-	Arc[170.00mil 175.00mil 105.00mil 105.00mil 10.00mil 20.00mil 0 -90 "clearline"]
-	Arc[170.00mil 175.00mil 105.00mil 105.00mil 10.00mil 20.00mil 90 -90 "clearline"]
-	Arc[170.00mil 175.00mil 105.00mil 105.00mil 10.00mil 20.00mil 180 -90 "clearline"]
-	Arc[170.00mil 2775.00mil 105.00mil 105.00mil 10.00mil 20.00mil 90 90 "clearline"]
-	Arc[170.00mil 2775.00mil 105.00mil 105.00mil 10.00mil 20.00mil 0 90 "clearline"]
-	Arc[170.00mil 2775.00mil 105.00mil 105.00mil 10.00mil 20.00mil 270 90 "clearline"]
-	Arc[170.00mil 2775.00mil 105.00mil 105.00mil 10.00mil 20.00mil 180 90 "clearline"]
 	Arc[2850.00mil 325.00mil 155.00mil 155.00mil 10.00mil 20.00mil 0 360 "clearline"]
 	Arc[2850.00mil 2625.00mil 155.00mil 155.00mil 10.00mil 20.00mil 0 360 "clearline"]
 	Text[180.00mil 770.00mil 3 100 "BATTERY" "clearline"]
