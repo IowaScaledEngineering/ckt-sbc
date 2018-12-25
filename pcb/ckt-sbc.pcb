@@ -2240,8 +2240,8 @@ Element["" "SM04B-SRSS" "J100" "unknown" 3695.00mil 1925.00mil -100.00mil 55.00m
 	Pad[-0.4750mm 0.5000mm 0.4750mm 0.5000mm 23.62mil 20.00mil 29.62mil "2" "2" "square"]
 	Pad[-0.4750mm -0.5000mm 0.4750mm -0.5000mm 23.62mil 20.00mil 29.62mil "3" "3" "square"]
 	Pad[-0.4750mm -1.5000mm 0.4750mm -1.5000mm 23.62mil 20.00mil 29.62mil "4" "4" "square"]
-	Pad[3.5750mm 2.8000mm 4.1750mm 2.8000mm 47.24mil 20.00mil 53.24mil "M" "M" "square,edge2"]
-	Pad[3.5750mm -2.8000mm 4.1750mm -2.8000mm 47.24mil 20.00mil 53.24mil "M" "M" "square,edge2"]
+	Pad[3.5750mm 2.8000mm 4.1750mm 2.8000mm 47.24mil 0.0000 53.24mil "M" "M" "square,edge2"]
+	Pad[3.5750mm -2.8000mm 4.1750mm -2.8000mm 47.24mil 0.0000 53.24mil "M" "M" "square,edge2"]
 
 	)
 
@@ -3021,6 +3021,10 @@ Layer(1 "component")
 	Polygon("clearpoly")
 	(
 		[3440.00mil 1835.00mil] [3570.00mil 1835.00mil] [3570.00mil 1995.00mil] [3440.00mil 1995.00mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[3810.00mil 2170.00mil] [3885.00mil 2170.00mil] [3885.00mil 1630.00mil] [3810.00mil 1630.00mil] 
 	)
 )
 Layer(2 "solder")
