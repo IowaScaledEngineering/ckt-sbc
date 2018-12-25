@@ -1048,6 +1048,7 @@ Via[2595.00mil 1520.00mil 28.00mil 20.00mil 0.0000 12.00mil "" "thermal(0S,2S,3S
 Via[2630.00mil 1520.00mil 28.00mil 20.00mil 0.0000 12.00mil "" "thermal(0S,2S,3S)"]
 Via[2630.00mil 1485.00mil 28.00mil 20.00mil 0.0000 12.00mil "" "thermal(0S,2S,3S)"]
 Via[2595.00mil 1485.00mil 28.00mil 20.00mil 0.0000 12.00mil "" "thermal(0S,2S,3S)"]
+Via[2715.00mil 2170.00mil 28.00mil 20.00mil 0.0000 12.00mil "" ""]
 
 Element["" "KEYSTONE_3568" "F1" "unknown" 877.00mil 495.00mil 158.00mil -318.00mil 0 100 ""]
 (
@@ -3190,6 +3191,10 @@ Layer(2 "solder")
 	Line[2715.00mil 1785.00mil 2770.00mil 1785.00mil 30.00mil 20.00mil "clearline"]
 	Line[2745.00mil 1655.00mil 2575.00mil 1825.00mil 10.00mil 20.00mil "clearline"]
 	Line[2575.00mil 330.00mil 2505.00mil 330.00mil 10.00mil 20.00mil "clearline"]
+	Line[2510.00mil 2170.00mil 2085.00mil 2595.00mil 10.00mil 20.00mil "clearline"]
+	Line[2085.00mil 2595.00mil 720.00mil 2595.00mil 10.00mil 20.00mil "clearline"]
+	Line[720.00mil 2595.00mil 390.00mil 2265.00mil 10.00mil 20.00mil "clearline"]
+	Line[2715.00mil 2170.00mil 2510.00mil 2170.00mil 10.00mil 20.00mil "clearline"]
 	Arc[2575.00mil 215.00mil 115.00mil 115.00mil 10.00mil 20.00mil 90 60 "clearline"]
 	Arc[2810.00mil 270.00mil 115.00mil 115.00mil 10.00mil 20.00mil 270 60 "clearline"]
 )
@@ -3205,10 +3210,8 @@ Layer(4 "VDD")
 (
 	Line[3365.00mil 2020.00mil 3155.00mil 2020.00mil 10.00mil 20.00mil "clearline"]
 	Line[3155.00mil 2020.00mil 3045.00mil 2130.00mil 10.00mil 20.00mil "clearline"]
-	Line[3045.00mil 2130.00mil 2550.00mil 2130.00mil 10.00mil 20.00mil "clearline"]
-	Line[2550.00mil 2130.00mil 2085.00mil 2595.00mil 10.00mil 20.00mil "clearline"]
-	Line[2085.00mil 2595.00mil 720.00mil 2595.00mil 10.00mil 20.00mil "clearline"]
-	Line[720.00mil 2595.00mil 390.00mil 2265.00mil 10.00mil 20.00mil "clearline"]
+	Line[3045.00mil 2130.00mil 2755.00mil 2130.00mil 10.00mil 20.00mil "clearline"]
+	Line[2755.00mil 2130.00mil 2715.00mil 2170.00mil 10.00mil 20.00mil "clearline"]
 	Polygon("clearpoly")
 	(
 		[3880.00mil 1530.00mil] [2935.00mil 1530.00mil] [2935.00mil 120.00mil] [3775.00mil 120.00mil] [3880.00mil 225.00mil] 
