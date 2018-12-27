@@ -1516,24 +1516,6 @@ footprint=STANDOFF_HEX_n4
 T 4500 4300 5 10 1 1 0 4 1
 refdes=H4
 }
-C 4800 3700 1 0 0 hole-1.sym
-{
-T 4800 3700 5 10 0 1 0 0 1
-device=HOLE
-T 4800 3700 5 10 0 0 0 0 1
-footprint=STANDOFF_HEX_n4
-T 5000 4300 5 10 1 1 0 4 1
-refdes=H5
-}
-C 5300 3700 1 0 0 hole-1.sym
-{
-T 5300 3700 5 10 0 1 0 0 1
-device=HOLE
-T 5300 3700 5 10 0 0 0 0 1
-footprint=STANDOFF_HEX_n4
-T 5500 4300 5 10 1 1 0 4 1
-refdes=H6
-}
 C 3400 11300 1 180 0 header3-1.sym
 {
 T 2400 10650 5 10 0 0 180 0 1
