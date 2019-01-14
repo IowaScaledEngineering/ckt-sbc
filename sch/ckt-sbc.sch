@@ -1272,7 +1272,7 @@ device=Capacitor
 T 27600 19900 5 10 1 1 0 2 1
 value=150uF
 T 27600 19700 5 10 1 1 0 2 1
-voltage=63V
+voltage=50V
 T 27300 20500 5 10 0 1 0 0 1
 device=EEE-FK1H151P
 T 27300 20500 5 10 0 0 0 0 1
