@@ -911,7 +911,6 @@ Via[2790.00mil 1340.00mil 28.00mil 20.00mil 0.0000 12.00mil "" "thermal(2S)"]
 Via[2870.00mil 1930.00mil 28.00mil 20.00mil 0.0000 12.00mil "" ""]
 Via[2915.00mil 1930.00mil 28.00mil 20.00mil 0.0000 12.00mil "" ""]
 Via[3095.00mil 1930.00mil 28.00mil 20.00mil 0.0000 12.00mil "" ""]
-Via[3050.00mil 1930.00mil 28.00mil 20.00mil 0.0000 12.00mil "" ""]
 Via[2720.00mil 1965.00mil 28.00mil 20.00mil 0.0000 12.00mil "" "thermal(0S,2S)"]
 Via[2760.00mil 1965.00mil 28.00mil 20.00mil 0.0000 12.00mil "" "thermal(0S,2S)"]
 Via[2800.00mil 1965.00mil 28.00mil 20.00mil 0.0000 12.00mil "" "thermal(0S,2S)"]
@@ -956,10 +955,6 @@ Via[3290.00mil 1634.00mil 28.00mil 20.00mil 0.0000 12.00mil "" ""]
 Via[2900.00mil 850.00mil 28.00mil 20.00mil 0.0000 12.00mil "" ""]
 Via[3580.00mil 1735.00mil 28.00mil 20.00mil 0.0000 12.00mil "" ""]
 Via[2825.00mil 1295.00mil 28.00mil 20.00mil 0.0000 12.00mil "" ""]
-Via[2915.00mil 2045.00mil 28.00mil 20.00mil 0.0000 12.00mil "" ""]
-Via[2870.00mil 2015.00mil 28.00mil 20.00mil 0.0000 12.00mil "" ""]
-Via[2620.00mil 2045.00mil 28.00mil 20.00mil 0.0000 12.00mil "" ""]
-Via[2650.00mil 2015.00mil 28.00mil 20.00mil 0.0000 12.00mil "" ""]
 Via[3550.00mil 505.00mil 28.00mil 20.00mil 0.0000 12.00mil "" ""]
 Via[3675.00mil 580.00mil 28.00mil 20.00mil 0.0000 12.00mil "" "thermal(3S)"]
 Via[3755.00mil 660.00mil 28.00mil 20.00mil 0.0000 12.00mil "" "thermal(2S)"]
@@ -1007,7 +1002,7 @@ Via[2595.00mil 1520.00mil 28.00mil 20.00mil 0.0000 12.00mil "" "thermal(0S,2S,3S
 Via[2630.00mil 1520.00mil 28.00mil 20.00mil 0.0000 12.00mil "" "thermal(0S,2S,3S)"]
 Via[2630.00mil 1485.00mil 28.00mil 20.00mil 0.0000 12.00mil "" "thermal(0S,2S,3S)"]
 Via[2595.00mil 1485.00mil 28.00mil 20.00mil 0.0000 12.00mil "" "thermal(0S,2S,3S)"]
-Via[2715.00mil 2170.00mil 28.00mil 20.00mil 0.0000 12.00mil "" ""]
+Via[3140.00mil 2130.00mil 28.00mil 20.00mil 0.0000 12.00mil "" ""]
 Via[3690.00mil 2410.00mil 28.00mil 20.00mil 0.0000 12.00mil "" "thermal(2S)"]
 Via[3350.00mil 1270.00mil 28.00mil 20.00mil 0.0000 12.00mil "" ""]
 Via[3475.00mil 1270.00mil 28.00mil 20.00mil 0.0000 12.00mil "" "thermal(3S,4+)"]
@@ -1018,6 +1013,7 @@ Via[3525.00mil 1395.00mil 28.00mil 20.00mil 0.0000 12.00mil "" ""]
 Via[3620.00mil 1515.00mil 28.00mil 20.00mil 0.0000 12.00mil "" ""]
 Via[3575.00mil 2095.00mil 28.00mil 20.00mil 0.0000 12.00mil "" ""]
 Via[3615.00mil 2095.00mil 28.00mil 20.00mil 0.0000 12.00mil "" ""]
+Via[3050.00mil 1930.00mil 28.00mil 20.00mil 0.0000 12.00mil "" ""]
 
 Element["" "KEYSTONE_3568" "F1" "unknown" 877.00mil 495.00mil 158.00mil -318.00mil 0 100 ""]
 (
@@ -1753,7 +1749,7 @@ Element["" "0805" "R6" "3.24k" 3735.00mil 960.00mil 73.50mil -31.50mil 0 100 ""]
 
 	)
 
-Element["" "0805" "R5" "93.1k" 3485.00mil 960.00mil -130.64mil 8.50mil 0 100 ""]
+Element["" "0805" "R5" "93.1k" 3485.00mil 960.00mil -135.64mil -26.50mil 0 100 ""]
 (
 	Pad[35.43mil -3.93mil 35.43mil 3.93mil 51.18mil 20.00mil 57.18mil "1" "1" "square"]
 	Pad[-35.43mil -3.93mil -35.43mil 3.93mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]
@@ -2347,8 +2343,6 @@ Layer(1 "component")
 	Line[3580.00mil 1540.00mil 3580.00mil 1735.00mil 10.00mil 20.00mil "clearline"]
 	Line[72.4659mm 34.0650mm 72.4659mm 1310.00mil 8.00mil 20.00mil "clearline"]
 	Line[72.4659mm 1310.00mil 2825.00mil 1295.00mil 10.00mil 20.00mil "clearline"]
-	Line[2915.00mil 2045.00mil 2620.00mil 2045.00mil 10.00mil 20.00mil "clearline"]
-	Line[2650.00mil 2015.00mil 2870.00mil 2015.00mil 10.00mil 20.00mil "clearline"]
 	Line[3550.00mil 505.00mil 91.4291mm 505.00mil 10.00mil 20.00mil "clearline"]
 	Line[91.4291mm 635.00mil 91.4291mm 505.00mil 10.00mil 20.00mil "clearline"]
 	Line[3675.00mil 580.00mil 3675.00mil 640.00mil 10.00mil 20.00mil "clearline"]
@@ -2374,8 +2368,8 @@ Layer(1 "component")
 	Line[3375.00mil 1690.00mil 86.8571mm 1690.00mil 10.00mil 20.00mil "clearline"]
 	Line[86.8571mm 1690.00mil 86.8571mm 1780.00mil 10.00mil 20.00mil "clearline"]
 	Line[88.6569mm 1780.00mil 3620.00mil 1780.00mil 10.00mil 20.00mil "clearline"]
-	Line[3620.00mil 1895.00mil 3495.00mil 2020.00mil 10.00mil 20.00mil "clearline"]
-	Line[3495.00mil 2020.00mil 3365.00mil 2020.00mil 10.00mil 20.00mil "clearline"]
+	Line[3620.00mil 1895.00mil 3385.00mil 2130.00mil 10.00mil 20.00mil "clearline"]
+	Line[3385.00mil 2130.00mil 3385.00mil 2130.00mil 10.00mil 20.00mil "clearline"]
 	Line[3675.00mil 525.00mil 3755.00mil 525.00mil 10.00mil 20.00mil "clearline"]
 	Line[3755.00mil 660.00mil 3755.00mil 610.43mil 10.00mil 20.00mil "clearline"]
 	Line[2145.00mil 635.00mil 70.3471mm 635.00mil 10.00mil 20.00mil "clearline"]
@@ -2463,8 +2457,7 @@ Layer(1 "component")
 	Line[3705.00mil 2005.00mil 3705.00mil 1395.00mil 10.00mil 20.00mil "clearline"]
 	Line[3705.00mil 1395.00mil 3675.00mil 1365.00mil 10.00mil 20.00mil "clearline"]
 	Line[3325.00mil 1365.00mil 3675.00mil 1365.00mil 10.00mil 20.00mil "clearline"]
-	Line[3365.00mil 2020.00mil 3215.00mil 2170.00mil 10.00mil 20.00mil "clearline"]
-	Line[3215.00mil 2170.00mil 2715.00mil 2170.00mil 10.00mil 20.00mil "clearline"]
+	Line[3385.00mil 2130.00mil 3140.00mil 2130.00mil 10.00mil 20.00mil "clearline"]
 	Arc[2575.00mil 215.00mil 115.00mil 115.00mil 10.00mil 20.00mil 90 60 "clearline"]
 	Arc[2810.00mil 270.00mil 115.00mil 115.00mil 10.00mil 20.00mil 270 60 "clearline"]
 	Arc[3150.00mil 245.00mil 90.00mil 90.00mil 10.00mil 20.00mil -180 90 "clearline"]
@@ -2535,10 +2528,6 @@ Layer(1 "component")
 	Polygon("")
 	(
 		[2165.00mil 1635.00mil] [2345.00mil 1635.00mil] [2345.00mil 1765.00mil] [2165.00mil 1765.00mil] 
-	)
-	Polygon("clearpoly")
-	(
-		[2695.00mil 1920.00mil] [3310.00mil 1920.00mil] [3310.00mil 1990.00mil] [2695.00mil 1990.00mil] 
 	)
 	Polygon("clearpoly")
 	(
@@ -2645,6 +2634,10 @@ Layer(1 "component")
 	(
 		[3810.00mil 2555.00mil] [3885.00mil 2555.00mil] [3885.00mil 2015.00mil] [3810.00mil 2015.00mil] 
 	)
+	Polygon("clearpoly")
+	(
+		[2695.00mil 1920.00mil] [3310.00mil 1920.00mil] [3310.00mil 1990.00mil] [2695.00mil 1990.00mil] 
+	)
 )
 Layer(2 "solder")
 (
@@ -2703,21 +2696,16 @@ Layer(2 "solder")
 	Line[2305.00mil 1805.00mil 2485.00mil 1805.00mil 30.00mil 20.00mil "clearline"]
 	Line[2485.00mil 1805.00mil 2570.00mil 1890.00mil 30.00mil 20.00mil "clearline"]
 	Line[2570.00mil 1890.00mil 2610.00mil 1890.00mil 30.00mil 20.00mil "clearline"]
-	Line[2620.00mil 2015.00mil 2460.00mil 1855.00mil 10.00mil 20.00mil "clearline"]
 	Line[2460.00mil 1855.00mil 2300.00mil 1855.00mil 10.00mil 20.00mil "clearline"]
 	Line[2300.00mil 1855.00mil 2045.00mil 1600.00mil 10.00mil 20.00mil "clearline"]
-	Line[2620.00mil 2045.00mil 2450.00mil 1875.00mil 10.00mil 20.00mil "clearline"]
 	Line[2450.00mil 1875.00mil 2290.00mil 1875.00mil 10.00mil 20.00mil "clearline"]
 	Line[2290.00mil 1875.00mil 2025.00mil 1610.00mil 10.00mil 20.00mil "clearline"]
 	Line[3290.00mil 1634.00mil 3316.00mil 1634.00mil 10.00mil 20.00mil "clearline"]
 	Line[3316.00mil 1634.00mil 3405.00mil 1545.00mil 10.00mil 20.00mil "clearline"]
 	Line[3190.00mil 1835.00mil 2825.00mil 1470.00mil 10.00mil 20.00mil "clearline"]
 	Line[2825.00mil 1470.00mil 2825.00mil 1295.00mil 10.00mil 20.00mil "clearline"]
-	Line[2620.00mil 2015.00mil 2650.00mil 2015.00mil 10.00mil 20.00mil "clearline"]
-	Line[3050.00mil 1890.00mil 3050.00mil 2015.00mil 10.00mil 20.00mil "clearline"]
 	Line[3650.00mil 715.00mil 3550.00mil 615.00mil 10.00mil 20.00mil "clearline"]
 	Line[3550.00mil 615.00mil 3550.00mil 505.00mil 10.00mil 20.00mil "clearline"]
-	Line[2870.00mil 1930.00mil 2870.00mil 2015.00mil 10.00mil 20.00mil "clearline"]
 	Line[3095.00mil 1930.00mil 3095.00mil 2015.00mil 10.00mil 20.00mil "clearline"]
 	Line[2025.00mil 1610.00mil 2025.00mil 670.00mil 10.00mil 20.00mil "clearline"]
 	Line[2025.00mil 670.00mil 2010.00mil 655.00mil 10.00mil 20.00mil "clearline"]
@@ -2741,11 +2729,7 @@ Layer(2 "solder")
 	Line[2140.00mil 1200.00mil 2140.00mil 750.00mil 30.00mil 20.00mil "clearline"]
 	Line[2715.00mil 1785.00mil 2770.00mil 1785.00mil 30.00mil 20.00mil "clearline"]
 	Line[2745.00mil 1655.00mil 2575.00mil 1825.00mil 10.00mil 20.00mil "clearline"]
-	Line[2915.00mil 1930.00mil 2915.00mil 2045.00mil 10.00mil 20.00mil "clearline"]
-	Line[2715.00mil 2170.00mil 2510.00mil 2170.00mil 10.00mil 20.00mil "clearline"]
-	Line[2510.00mil 2170.00mil 2085.00mil 2595.00mil 10.00mil 20.00mil "clearline"]
-	Line[2085.00mil 2595.00mil 720.00mil 2595.00mil 10.00mil 20.00mil "clearline"]
-	Line[720.00mil 2595.00mil 390.00mil 2265.00mil 10.00mil 20.00mil "clearline"]
+	Line[3140.00mil 2130.00mil 2550.00mil 2130.00mil 10.00mil 20.00mil "clearline"]
 	Line[3230.00mil 1270.00mil 3350.00mil 1270.00mil 10.00mil 20.00mil "clearline"]
 	Line[3575.00mil 2285.00mil 3575.00mil 2095.00mil 10.00mil 20.00mil "clearline"]
 	Line[3615.00mil 2255.00mil 3615.00mil 2095.00mil 10.00mil 20.00mil "clearline"]
@@ -2756,6 +2740,17 @@ Layer(2 "solder")
 	Line[3405.00mil 1545.00mil 3635.00mil 1545.00mil 10.00mil 20.00mil "clearline"]
 	Line[3635.00mil 1545.00mil 3650.00mil 1530.00mil 10.00mil 20.00mil "clearline"]
 	Line[3650.00mil 1530.00mil 3650.00mil 715.00mil 10.00mil 20.00mil "clearline"]
+	Line[2460.00mil 1855.00mil 2605.00mil 2000.00mil 10.00mil 20.00mil "clearline"]
+	Line[2605.00mil 2000.00mil 2850.00mil 2000.00mil 10.00mil 20.00mil "clearline"]
+	Line[2850.00mil 2000.00mil 2870.00mil 1980.00mil 10.00mil 20.00mil "clearline"]
+	Line[2870.00mil 1980.00mil 2870.00mil 1930.00mil 10.00mil 20.00mil "clearline"]
+	Line[2450.00mil 1875.00mil 2595.00mil 2020.00mil 10.00mil 20.00mil "clearline"]
+	Line[2595.00mil 2020.00mil 2895.00mil 2020.00mil 10.00mil 20.00mil "clearline"]
+	Line[2895.00mil 2020.00mil 2915.00mil 2000.00mil 10.00mil 20.00mil "clearline"]
+	Line[2915.00mil 2000.00mil 2915.00mil 1930.00mil 10.00mil 20.00mil "clearline"]
+	Line[390.00mil 2265.00mil 2415.00mil 2265.00mil 10.00mil 20.00mil "clearline"]
+	Line[2415.00mil 2265.00mil 2550.00mil 2130.00mil 10.00mil 20.00mil "clearline"]
+	Line[3050.00mil 2015.00mil 3050.00mil 1930.00mil 10.00mil 20.00mil "clearline"]
 )
 Layer(3 "GND")
 (
