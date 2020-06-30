@@ -1,4 +1,4 @@
-schematics ckt-sbc.sch ckt-sbc-telem.sch
+schematics ckt-sbc.sch
 output-name ../pcb/ckt-sbc
 skip-m4
 elements-dir ../../../footprints
