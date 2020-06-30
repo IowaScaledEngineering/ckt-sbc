@@ -1816,7 +1816,7 @@ Element["" "0805" "R40" "274k" 2805.00mil 635.00mil -46.50mil -91.50mil 0 100 ""
 
 	)
 
-Element["" "LTC_UKJ64-58" "U1" "unknown" 3040.00mil 1475.00mil 2.5300mm -5.6670mm 0 100 ""]
+Element["" "LTC_UKJ64-58" "U1" "unknown" 3040.00mil 1475.00mil 1.7680mm -5.6670mm 0 100 ""]
 (
 	Pad[187.01mil -142.72mil 187.01mil -125.00mil 9.84mil 20.00mil 15.84mil "FBIR" "1" "square"]
 	Pad[167.32mil -142.72mil 167.32mil -81.69mil 9.84mil 20.00mil 15.84mil "CA" "2" "square"]
