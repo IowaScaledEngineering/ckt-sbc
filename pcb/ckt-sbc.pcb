@@ -2883,10 +2883,10 @@ Layer(5 "outline")
 	Arc[3775.00mil 225.00mil 125.00mil 125.00mil 10.00mil 20.00mil -90 -90 "clearline"]
 	Arc[3775.00mil 2725.00mil 125.00mil 125.00mil 10.00mil 20.00mil 90 90 "clearline"]
 )
-Layer(6 "silk")
+Layer(6 "bottom silk")
 (
 )
-Layer(7 "silk")
+Layer(7 "top silk")
 (
 	Line[150.00mil 665.00mil 150.00mil 705.00mil 10.00mil 20.00mil "clearline"]
 	Line[150.00mil 1065.00mil 150.00mil 1105.00mil 10.00mil 20.00mil "clearline"]
@@ -2925,7 +2925,7 @@ Layer(7 "silk")
 	Text[65.3941mm 2230.00mil 0 100 "Iowa Scaled Engineering" "clearline"]
 	Text[3815.00mil 1980.00mil 1 100 "Qwiic" "clearline"]
 	Text[3815.00mil 1405.00mil 1 100 "STATUS" "clearline"]
-	Text[3320.00mil 180.00mil 2 100 "12V" "clearline"]
+	Text[3335.00mil 180.00mil 2 100 "VBAT" "clearline"]
 	Text[3650.00mil 640.00mil 0 144 "EN" "clearline"]
 	Text[3635.00mil 165.00mil 0 144 "OFF" "clearline"]
 	Text[57.1391mm 2560.00mil 0 100 "CC BY-SA" "clearline"]
